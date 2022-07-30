@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>flex-box</title>
+    <style>
+        div{
+            border: 2px solid #000;
+            background-color: aqua;
+            padding: 8px 16px;
+        }
+        .parent1{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .p2{
+            display: flex;
+            flex-direction: row;
+        }
+        .p3{
+            display: flex;
+            flex-direction: row;
+        }
+        .p4{
+            display: flex;
+            flex-direction: row;
+        }
+        .parent1 p2 div{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent1">
+        <div class="p2">
+            <div class="p2-1"></div>
+            <div class="p2-2"></div>
+            <div class="p2-3"></div>
+            <div class="p2-4"></div>
+        </div>
+        <div class="p3">
+            <div class="p3-1"></div>
+            <div class="p3-2"></div>
+            <div class="p3-3"></div>
+        </div>
+        <div class="p4">
+            <div class="p4-1"></div>
+            <div class="p4-2"></div>
+            <div class="p4-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>
